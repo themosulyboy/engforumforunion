@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+/* في ملف globals.css */
+* {
+  font-family: 'SF Pro Arabic', 'Helvetica Neue', sans-serif; /* استبدل هذا باسم الخط الذي تود استخدامه */
+  direction: rtl;  /* لتوجيه النصوص من اليمين لليسار */
+  text-align: right;  /* لجعل النص يظهر محاذياً لليمين */
+}
